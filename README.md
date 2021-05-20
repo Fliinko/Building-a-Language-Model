@@ -2,15 +2,7 @@
 
 The Below is all built and run on the Python 3.8.5 Kernel.
 
-    Requirements:
-    > Numpy
-    > NLTK
-    > Pandas
-    > os
-    > sys
-    > pysis
-    > sklearn
-    > mpmath
+        pip install requirements.txt
 
 This repository is split into three parts. The first part being 'Building a Language Model.ipynb'. This notebook consists of sentence and ngram generation given a selected corpus. The corpora can be found in the corpus subfolder. Probability, perplexity and linear interpolation of the UNK, Laplace and Vanilla unigrams, bigrams and trigrams are also calculated in this notebook.
 
